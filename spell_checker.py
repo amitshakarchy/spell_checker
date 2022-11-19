@@ -912,7 +912,7 @@ def normalize_text(text):
 
 
 def who_am_i():  # this is not a class method
-    """Returns a dictionary with your name, id number and email. keys=['name', 'id','email']
+    """Returns a dictionary with your name and email. keys=['name','email']
         Make sure you return your own info!
     """
-    return {'name': 'Amit Shakarchy', 'id': '313278889', 'email': 'shakarch@post.bgu.ac.il'}
+    return {'name': 'Amit Shakarchy', 'email': 'shakarch@post.bgu.ac.il'}
